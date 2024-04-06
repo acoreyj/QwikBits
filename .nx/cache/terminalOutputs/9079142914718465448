@@ -1,0 +1,48 @@
+Error loading vite-imagetools, image imports are not available Error: Could not load the "sharp" module using the linux-x64 runtime
+Possible solutions:
+- Ensure optional dependencies can be installed:
+    npm install --include=optional sharp
+    yarn add sharp --ignore-engines
+- Ensure your package manager supports multi-platform installation:
+    See https://sharp.pixelplumbing.com/install#cross-platform
+- Add platform-specific dependencies:
+    npm install --os=linux --cpu=x64 sharp
+- Consult the installation documentation:
+    See https://sharp.pixelplumbing.com/install
+    at Object.<anonymous> [90m(/home/corey/workspace/qwikbits/[39mnode_modules/[4m.pnpm[24m/sharp@0.33.3/node_modules/[4msharp[24m/lib/sharp.js:114:9[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1023:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1235:19)[39m
+[90m    at require (node:internal/modules/helpers:176:18)[39m
+    at Object.<anonymous> [90m(/home/corey/workspace/qwikbits/[39mnode_modules/[4m.pnpm[24m/sharp@0.33.3/node_modules/[4msharp[24m/lib/constructor.js:10:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error: Could not load the "sharp" module using the linux-x64 runtime
+Possible solutions:
+- Ensure optional dependencies can be installed:
+    npm install --include=optional sharp
+    yarn add sharp --ignore-engines
+- Ensure your package manager supports multi-platform installation:
+    See https://sharp.pixelplumbing.com/install#cross-platform
+- Add platform-specific dependencies:
+    npm install --os=linux --cpu=x64 sharp
+- Consult the installation documentation:
+    See https://sharp.pixelplumbing.com/install
+    at Object.<anonymous> [90m(/home/corey/workspace/qwikbits/[39mnode_modules/[4m.pnpm[24m/sharp@0.33.3/node_modules/[4msharp[24m/lib/sharp.js:114:9[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1023:12)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1235:19)[39m
+[90m    at require (node:internal/modules/helpers:176:18)[39m
+    at Object.<anonymous> [90m(/home/corey/workspace/qwikbits/[39mnode_modules/[4m.pnpm[24m/sharp@0.33.3/node_modules/[4msharp[24m/lib/constructor.js:10:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m
+[90m    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m
+
+Node.js v20.11.0

@@ -1,0 +1,1151 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.2.3",
+  "deps": {
+    "@cloudflare/pages-plugin-sentry": "^1.1.2",
+    "@julr/unocss-preset-forms": "0.0.5",
+    "@oddbird/popover-polyfill": "^0.2.2",
+    "@sentry/browser": "^7.109.0",
+    "cal-sans": "^1.0.1",
+    "class-variance-authority": "^0.6.1",
+    "focusable-selectors": "0.8.0",
+    "prismjs": "1.29.0",
+    "qwik-nx": "2.2.1",
+    "toucan-js": "^3.1.0",
+    "@builder.io/qwik": "~1.5.1",
+    "@builder.io/qwik-city": "~1.5.1",
+    "@nx/eslint-plugin": "18.2.3",
+    "@nx/js": "18.2.3",
+    "@nx/linter": "18.2.3",
+    "@nx/vite": "18.2.3",
+    "@nx/workspace": "18.2.3",
+    "@types/node": "^20.12.5",
+    "@types/prismjs": "^1.26.3",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@unocss/cli": "0.53.4",
+    "@unocss/preset-icons": "^0.53.4",
+    "@unocss/preset-web-fonts": "^0.53.4",
+    "@unocss/preset-wind": "^0.53.4",
+    "@unocss/reset": "^0.53.4",
+    "@unocss/transformer-directives": "^0.53.4",
+    "@vitest/ui": "^0.33.0",
+    "eslint": "~8.44.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-qwik": "~1.2.6",
+    "jsdom": "~22.1.0",
+    "less": "~4.1.3",
+    "node-fetch": "~3.3.1",
+    "nx": "18.2.3",
+    "nx-cloud": "^18.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "~5.1.6",
+    "undici": "^5.22.1",
+    "unocss": "^0.53.4",
+    "unocss-preset-theme": "^0.7.0",
+    "vite": "^4.4.1",
+    "vite-plugin-dts": "~3.1.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-tsconfig-paths": "~4.2.0",
+    "vitest": "^0.33.0",
+    "wrangler": "3.1.2"
+  },
+  "pathMappings": {
+    "@qwikbits/code-block": [
+      "libs/code-block/src/index.ts"
+    ],
+    "@qwikbits/headless-ui": [
+      "libs/headless-ui/src/index.ts"
+    ],
+    "@qwikbits/utils": [
+      "libs/utils/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".nvmrc",
+        "hash": "16498882585960246525"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5920136406843575159"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/feature_request.md",
+        "hash": "16753800237612064714"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "18356520376841521882"
+      },
+      {
+        "file": "CODE_OF_CONDUCT.md",
+        "hash": "8580486897346850259"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/bug_report.md",
+        "hash": "6701667327360217335"
+      },
+      {
+        "file": "CONTRIBUTING.md",
+        "hash": "8896779015709431196"
+      },
+      {
+        "file": "LICENSE.qwikifiers_qwik-ui",
+        "hash": "9546701414024365294"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "11192737202656287549"
+      },
+      {
+        "file": "README.md",
+        "hash": "6184245880665039138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "15688716223812524758"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "4844807271923703964"
+      },
+      {
+        "file": "LICENSE.builderio_qwik",
+        "hash": "4614772557608862531"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "9271452799830743644"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "16884713733442577066"
+      },
+      {
+        "file": "package.json",
+        "hash": "10449561256630978194"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11608181557323256120"
+      },
+      {
+        "file": ".github/ISSUE_TEMPLATE/component-request.md",
+        "hash": "13381471355255997136"
+      }
+    ],
+    "projectFileMap": {
+      "docs": [
+        {
+          "file": "apps/docs/.eslintrc.json",
+          "hash": "4642475853199303052"
+        },
+        {
+          "file": "apps/docs/.gitignore",
+          "hash": "11708280988855706216"
+        },
+        {
+          "file": "apps/docs/.node-version",
+          "hash": "10216316331752013727"
+        },
+        {
+          "file": "apps/docs/.prettierignore",
+          "hash": "4404720512232629990"
+        },
+        {
+          "file": "apps/docs/README.md",
+          "hash": "9805032828312697680"
+        },
+        {
+          "file": "apps/docs/adapters/cloudflare-pages/vite.config.ts",
+          "hash": "4077482453524973156",
+          "deps": [
+            "npm:@builder.io/qwik-city"
+          ]
+        },
+        {
+          "file": "apps/docs/package.json",
+          "hash": "1439999140735779544",
+          "deps": [
+            "npm:wrangler"
+          ]
+        },
+        {
+          "file": "apps/docs/pnpm-lock.yaml",
+          "hash": "14778453483521077390"
+        },
+        {
+          "file": "apps/docs/project.json",
+          "hash": "12917102032067399864"
+        },
+        {
+          "file": "apps/docs/public/_headers",
+          "hash": "9305388039929309654"
+        },
+        {
+          "file": "apps/docs/public/_redirects",
+          "hash": "13975889273791189387"
+        },
+        {
+          "file": "apps/docs/public/favicon.svg",
+          "hash": "446107399934622830"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/JetBrainsMono-Italic-VariableFont_wght.ttf",
+          "hash": "18051101091872820355"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf",
+          "hash": "14982127571119183246"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/OFL.txt",
+          "hash": "13773892664751548441"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/README.txt",
+          "hash": "4287299767318907845"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-Bold.ttf",
+          "hash": "6701728569456740011"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-BoldItalic.ttf",
+          "hash": "9001075929502093059"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-ExtraBold.ttf",
+          "hash": "666233151522591137"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-ExtraBoldItalic.ttf",
+          "hash": "5818146215854744633"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-ExtraLight.ttf",
+          "hash": "182279125830216658"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-ExtraLightItalic.ttf",
+          "hash": "1253860918090724941"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-Italic.ttf",
+          "hash": "16544254567965359241"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-Light.ttf",
+          "hash": "1685759721068181216"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-LightItalic.ttf",
+          "hash": "12171863026077988312"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-Medium.ttf",
+          "hash": "7488238101079433388"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-MediumItalic.ttf",
+          "hash": "1848753715803688878"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-Regular.ttf",
+          "hash": "9199760484596032514"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-SemiBold.ttf",
+          "hash": "6706671256935101430"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-SemiBoldItalic.ttf",
+          "hash": "5172499811239781259"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-Thin.ttf",
+          "hash": "10137268590472593474"
+        },
+        {
+          "file": "apps/docs/public/fonts/JetBrains_Mono/static/JetBrainsMono-ThinItalic.ttf",
+          "hash": "13836487508952399718"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/OFL.txt",
+          "hash": "9590328039160894824"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-Black.ttf",
+          "hash": "1919052451614966795"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-BlackItalic.ttf",
+          "hash": "9760956200412001869"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-Bold.ttf",
+          "hash": "4026098565227204237"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-BoldItalic.ttf",
+          "hash": "361868418544956245"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-ExtraBold.ttf",
+          "hash": "6457487496092012786"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-ExtraBoldItalic.ttf",
+          "hash": "9795437618673666611"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-ExtraLight.ttf",
+          "hash": "16275575072013933946"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-ExtraLightItalic.ttf",
+          "hash": "7040463318076622256"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-Italic.ttf",
+          "hash": "15291719701263516312"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-Light.ttf",
+          "hash": "8436614281138106208"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-LightItalic.ttf",
+          "hash": "17600936541695395279"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-Medium.ttf",
+          "hash": "5295387920227538011"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-MediumItalic.ttf",
+          "hash": "2219426196918170412"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-Regular.ttf",
+          "hash": "11178301055287304885"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-SemiBold.ttf",
+          "hash": "15253665294333103878"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-SemiBoldItalic.ttf",
+          "hash": "18032431514309525002"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-Thin.ttf",
+          "hash": "12958461768140013164"
+        },
+        {
+          "file": "apps/docs/public/fonts/Poppins/Poppins-ThinItalic.ttf",
+          "hash": "4381599602309498007"
+        },
+        {
+          "file": "apps/docs/public/manifest.json",
+          "hash": "12573047294351719872"
+        },
+        {
+          "file": "apps/docs/public/qwikbits.svg",
+          "hash": "15060559658627036061"
+        },
+        {
+          "file": "apps/docs/public/robots.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/docs/src/code-block.css",
+          "hash": "5630681962816038704"
+        },
+        {
+          "file": "apps/docs/src/components/breadcrumbs/breadcrumbs.css",
+          "hash": "13152523270684536310"
+        },
+        {
+          "file": "apps/docs/src/components/breadcrumbs/breadcrumbs.tsx",
+          "hash": "11222221804327061312",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city"
+          ]
+        },
+        {
+          "file": "apps/docs/src/components/code-block.css",
+          "hash": "16329500233945016863"
+        },
+        {
+          "file": "apps/docs/src/components/code-block.tsx",
+          "hash": "5047807696692347582",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:prismjs"
+          ]
+        },
+        {
+          "file": "apps/docs/src/components/footer/footer.css",
+          "hash": "3759843324187273030"
+        },
+        {
+          "file": "apps/docs/src/components/footer/footer.tsx",
+          "hash": "9824240400814536566",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "apps/docs/src/components/genie-system/cta.tsx",
+          "hash": "9009594342434339876",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils",
+            "npm:@builder.io/qwik-city",
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/docs/src/components/genie-system/typography.tsx",
+          "hash": "6831762247281707396",
+          "deps": [
+            "npm:class-variance-authority"
+          ]
+        },
+        {
+          "file": "apps/docs/src/components/header/header.tsx",
+          "hash": "5615448683642421756",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city",
+            "headless-ui",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/docs/src/components/icons/qwik.tsx",
+          "hash": "4155007226597989367"
+        },
+        {
+          "file": "apps/docs/src/components/icons/qwikbits.tsx",
+          "hash": "13514822555572951786"
+        },
+        {
+          "file": "apps/docs/src/components/menu/menu.tsx",
+          "hash": "6747507577271362319",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/docs/src/components/router-head/router-head.tsx",
+          "hash": "13746360095956267150",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city"
+          ]
+        },
+        {
+          "file": "apps/docs/src/dark-code-block.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/docs/src/entry.cloudflare-pages.tsx",
+          "hash": "5874796941161509601",
+          "deps": [
+            "npm:@builder.io/qwik-city",
+            "npm:@qwik-city-plan",
+            "npm:@qwik-client-manifest"
+          ]
+        },
+        {
+          "file": "apps/docs/src/entry.dev.tsx",
+          "hash": "15263945111847313822",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "apps/docs/src/entry.preview.tsx",
+          "hash": "12523607060466884099",
+          "deps": [
+            "npm:@builder.io/qwik-city",
+            "npm:@qwik-city-plan"
+          ]
+        },
+        {
+          "file": "apps/docs/src/entry.ssr.tsx",
+          "hash": "472901739215202073",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@qwik-client-manifest"
+          ]
+        },
+        {
+          "file": "apps/docs/src/global.css",
+          "hash": "10532669965876599667"
+        },
+        {
+          "file": "apps/docs/src/root.tsx",
+          "hash": "2054386765127278662",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city",
+            "npm:@sentry/browser",
+            "npm:@unocss/reset",
+            "npm:cal-sans",
+            "npm:virtual:uno.css"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/collapse/index.tsx",
+          "hash": "12391740248425454090",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block",
+            "headless-ui"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/dialog/index.tsx",
+          "hash": "12461676262696822592",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block",
+            "headless-ui"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/dropdown/index.tsx",
+          "hash": "3855846007249886858",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block",
+            "headless-ui"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/helpers/index.tsx",
+          "hash": "18108050443469547716",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/index.tsx",
+          "hash": "12700983088175339177",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/layout.tsx",
+          "hash": "14358488947331454807",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/qwik-html-element/index.tsx",
+          "hash": "9312412888018179466",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/serialize-class/index.tsx",
+          "hash": "12741021122264537548",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/tabs/index.tsx",
+          "hash": "4918424047808831257",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block",
+            "headless-ui"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/toggle/index.tsx",
+          "hash": "3825028995387998692",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block",
+            "headless-ui"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/headless-ui/vh-element/index.tsx",
+          "hash": "4464405647325375676",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/index.tsx",
+          "hash": "4935592780212525454",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/layout.tsx",
+          "hash": "16882697162123119454",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/service-worker.ts",
+          "hash": "6519991492550831346",
+          "deps": [
+            "npm:@builder.io/qwik-city"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/utils/dom-utils/index.tsx",
+          "hash": "1476776357118911454",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/utils/helpers/index.tsx",
+          "hash": "18108050443469547716",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/utils/index.tsx",
+          "hash": "14670006563248107979",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block",
+            "utils"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/utils/layout.tsx",
+          "hash": "23525523933182948",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/utils/qwik-html-element/index.tsx",
+          "hash": "9161455284617878639",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/utils/serialize-class/index.tsx",
+          "hash": "12741021122264537548",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/routes/utils/vh-element/index.tsx",
+          "hash": "17217470819642702018",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "code-block"
+          ]
+        },
+        {
+          "file": "apps/docs/src/uno.css",
+          "hash": "11876995919392269930"
+        },
+        {
+          "file": "apps/docs/tsconfig.app.json",
+          "hash": "4813728436017469898"
+        },
+        {
+          "file": "apps/docs/tsconfig.json",
+          "hash": "10501919329726310043"
+        },
+        {
+          "file": "apps/docs/tsconfig.spec.json",
+          "hash": "12411688542299444852"
+        },
+        {
+          "file": "apps/docs/uno.config.ts",
+          "hash": "4887939004455431940",
+          "deps": [
+            "npm:unocss",
+            "npm:@julr/unocss-preset-forms",
+            "npm:@unocss/transformer-directives",
+            "npm:@unocss/preset-web-fonts",
+            "npm:@unocss/preset-wind",
+            "npm:unocss-preset-theme"
+          ]
+        },
+        {
+          "file": "apps/docs/uno.css",
+          "hash": "11209611510009317452"
+        },
+        {
+          "file": "apps/docs/vite.config.ts",
+          "hash": "10064035496395361542",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:@builder.io/qwik-city",
+            "npm:vite",
+            "npm:vite-tsconfig-paths",
+            "npm:qwik-nx",
+            "npm:unocss"
+          ]
+        }
+      ],
+      "utils": [
+        {
+          "file": "libs/utils/.eslintrc.json",
+          "hash": "18296126252845605152"
+        },
+        {
+          "file": "libs/utils/README.md",
+          "hash": "7895454965472636336"
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/src/index.d.ts",
+          "hash": "17980460885897045245"
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/src/lib/100vh.d.ts",
+          "hash": "2276427702106775821",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/src/lib/QwikHTMLElement.d.ts",
+          "hash": "15730182366452316637",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/src/lib/dom-utils.d.ts",
+          "hash": "17843616804392571355"
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/src/lib/helpers.d.ts",
+          "hash": "12771340860283732294"
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/src/lib/serialize-class.d.ts",
+          "hash": "4260110693615791775",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/src/root.d.ts",
+          "hash": "6734596925764844235"
+        },
+        {
+          "file": "libs/utils/lib-types/libs/utils/tsconfig.types.tsbuildinfo",
+          "hash": "18123747067204672055"
+        },
+        {
+          "file": "libs/utils/lib/index.qwik.cjs",
+          "hash": "5874789128309191284",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/lib/index.qwik.mjs",
+          "hash": "1087282989482139583",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/package.json",
+          "hash": "1273587454699214609",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/project.json",
+          "hash": "5715777721931537013"
+        },
+        {
+          "file": "libs/utils/src/index.ts",
+          "hash": "17980460885897045245"
+        },
+        {
+          "file": "libs/utils/src/lib/100vh.tsx",
+          "hash": "830752150315876072",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/src/lib/QwikHTMLElement.tsx",
+          "hash": "6962396271976999187",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/src/lib/dom-utils.ts",
+          "hash": "5847823916041145326",
+          "deps": [
+            "npm:focusable-selectors"
+          ]
+        },
+        {
+          "file": "libs/utils/src/lib/helpers.ts",
+          "hash": "8434295831141835085"
+        },
+        {
+          "file": "libs/utils/src/lib/serialize-class.ts",
+          "hash": "14734943779575619644",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/utils/src/root.tsx",
+          "hash": "4967945757279378710"
+        },
+        {
+          "file": "libs/utils/tsconfig.json",
+          "hash": "5197294469330440871"
+        },
+        {
+          "file": "libs/utils/tsconfig.lib.json",
+          "hash": "11791886524301251011"
+        },
+        {
+          "file": "libs/utils/tsconfig.spec.json",
+          "hash": "11102433191798537888"
+        },
+        {
+          "file": "libs/utils/tsconfig.types.json",
+          "hash": "1117632808098656386"
+        },
+        {
+          "file": "libs/utils/vite.config.ts",
+          "hash": "9041386001690966493",
+          "deps": [
+            "npm:vite-tsconfig-paths",
+            "npm:qwik-nx",
+            "npm:vite",
+            "npm:@builder.io/qwik"
+          ]
+        }
+      ],
+      "code-block": [
+        {
+          "file": "libs/code-block/.eslintrc.json",
+          "hash": "15507014803469573631"
+        },
+        {
+          "file": "libs/code-block/README.md",
+          "hash": "16900162531084095832"
+        },
+        {
+          "file": "libs/code-block/project.json",
+          "hash": "6916544883037273500"
+        },
+        {
+          "file": "libs/code-block/src/index.ts",
+          "hash": "16105678618029524002"
+        },
+        {
+          "file": "libs/code-block/src/lib/code-block.css",
+          "hash": "16329500233945016863"
+        },
+        {
+          "file": "libs/code-block/src/lib/code-block.tsx",
+          "hash": "5047807696692347582",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:prismjs"
+          ]
+        },
+        {
+          "file": "libs/code-block/src/root.tsx",
+          "hash": "4967945757279378710"
+        },
+        {
+          "file": "libs/code-block/tsconfig.json",
+          "hash": "11346012477154819182"
+        },
+        {
+          "file": "libs/code-block/tsconfig.lib.json",
+          "hash": "3830819396057461311"
+        },
+        {
+          "file": "libs/code-block/tsconfig.spec.json",
+          "hash": "12411688542299444852"
+        },
+        {
+          "file": "libs/code-block/vite.config.ts",
+          "hash": "8481499211989213344",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "npm:vite-tsconfig-paths",
+            "npm:vite",
+            "npm:qwik-nx"
+          ]
+        }
+      ],
+      "headless-ui": [
+        {
+          "file": "libs/headless-ui/.eslintrc.json",
+          "hash": "8739269431667002358"
+        },
+        {
+          "file": "libs/headless-ui/README.md",
+          "hash": "14981209695785169523"
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/src/index.d.ts",
+          "hash": "10193636887673091622"
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/src/lib/Collapse.d.ts",
+          "hash": "4107297977325550411",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/src/lib/Dialog.d.ts",
+          "hash": "16047786297135625985",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/src/lib/Dropdown.d.ts",
+          "hash": "12928366108500401365",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/src/lib/Tabs.d.ts",
+          "hash": "9325258882145556129",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/src/lib/Toggle.d.ts",
+          "hash": "6725936378935277898",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/src/root.d.ts",
+          "hash": "6734596925764844235"
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/headless-ui/tsconfig.types.tsbuildinfo",
+          "hash": "3997105178062135269"
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/utils/src/index.d.ts",
+          "hash": "17980460885897045245"
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/utils/src/lib/100vh.d.ts",
+          "hash": "2276427702106775821",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/utils/src/lib/QwikHTMLElement.d.ts",
+          "hash": "15730182366452316637",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/utils/src/lib/dom-utils.d.ts",
+          "hash": "17843616804392571355"
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/utils/src/lib/helpers.d.ts",
+          "hash": "12771340860283732294"
+        },
+        {
+          "file": "libs/headless-ui/lib-types/libs/utils/src/lib/serialize-class.d.ts",
+          "hash": "4260110693615791775",
+          "deps": [
+            "npm:@builder.io/qwik"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib/index.qwik.cjs",
+          "hash": "2851812457386414797",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/lib/index.qwik.mjs",
+          "hash": "5723027695419978025",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/package.json",
+          "hash": "6530442334884107655",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/project.json",
+          "hash": "11418055174238064388"
+        },
+        {
+          "file": "libs/headless-ui/src/index.ts",
+          "hash": "10193636887673091622"
+        },
+        {
+          "file": "libs/headless-ui/src/lib/Collapse.tsx",
+          "hash": "3848586962372779977",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/src/lib/Dialog.tsx",
+          "hash": "557237349065894252",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/src/lib/Dropdown.tsx",
+          "hash": "2378491564968820861",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils",
+            "npm:@oddbird/popover-polyfill"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/src/lib/Tabs.tsx",
+          "hash": "2984324521372712852",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/src/lib/Toggle.tsx",
+          "hash": "17277763778296772449",
+          "deps": [
+            "npm:@builder.io/qwik",
+            "utils"
+          ]
+        },
+        {
+          "file": "libs/headless-ui/src/lib/popover.css",
+          "hash": "17661155072888897764"
+        },
+        {
+          "file": "libs/headless-ui/src/root.tsx",
+          "hash": "4967945757279378710"
+        },
+        {
+          "file": "libs/headless-ui/tsconfig.json",
+          "hash": "11346012477154819182"
+        },
+        {
+          "file": "libs/headless-ui/tsconfig.lib.json",
+          "hash": "11791886524301251011"
+        },
+        {
+          "file": "libs/headless-ui/tsconfig.spec.json",
+          "hash": "11102433191798537888"
+        },
+        {
+          "file": "libs/headless-ui/tsconfig.types.json",
+          "hash": "1117632808098656386"
+        },
+        {
+          "file": "libs/headless-ui/vite.config.ts",
+          "hash": "8677922547700243851",
+          "deps": [
+            "npm:vite-tsconfig-paths",
+            "npm:qwik-nx",
+            "npm:vite",
+            "npm:@builder.io/qwik"
+          ]
+        }
+      ]
+    }
+  }
+}
